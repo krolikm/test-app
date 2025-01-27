@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "958419962956",
+    "project_id": "testappdistribution-2e70d",
+    "storage_bucket": "testappdistribution-2e70d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958419962956:android:78d11a84bf2b9cff9238e9",
+        "android_client_info": {
+          "package_name": "pl.maciejkrolik.testappdistribution"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq4Xv4PNDXrNeenwbqvKGuqmg4-9FTnIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

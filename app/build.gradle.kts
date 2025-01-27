@@ -1,14 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.testappdistribution"
-    compileSdk = 34
+    namespace = "pl.maciejkrolik.testappdistribution"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.testappdistribution"
+        applicationId = "pl.maciejkrolik.testappdistribution"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,4 +67,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(platform(libs.firebase.bom))
 }
